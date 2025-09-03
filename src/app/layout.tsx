@@ -16,7 +16,7 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "MemeCoin Hub",
-  description: "Plan a single-page site that showcases a fun memecoin landing with hero, about, how to buy, tokenomics, FAQ, and footer, plus a navbar for in-page navigation."
+  description: "Introduce MemeCoin with a fun, trendy landing that explains the project, how to buy, and tokenomics with clear CTAs.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
+      <body
+        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
