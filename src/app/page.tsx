@@ -1,6 +1,6 @@
 "use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
 import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
