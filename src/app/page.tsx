@@ -68,7 +68,6 @@ export default function Home() {
             { items: [{ label: "Privacy Policy", onClick: () => console.log('Privacy clicked') }] },
             { items: [{ label: "Terms of Service", onClick: () => console.log('Terms clicked') }] }
           ]}
-          copyrightText="© 2023 MemeCoin Hub. All rights reserved."
           onPrivacyClick={() => console.log('Privacy clicked')}
         />
       </div>
