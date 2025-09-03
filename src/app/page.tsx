@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
       <NavbarStyleApple
-        brand="MemeCoin Hub"
+        logoSrc="/images/logo.svg"
+        logoAlt="MemeCoin Logo"
+        brandName="MemeCoin Hub"
         navItems={[
           { name: "Hero", id: "hero" },
           { name: "About", id: "about" },
