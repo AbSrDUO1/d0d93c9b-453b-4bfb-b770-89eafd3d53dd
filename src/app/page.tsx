@@ -7,6 +7,7 @@ import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { Percent } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -64,8 +65,8 @@ export default function Home() {
           title="Tokenomics"
           description="The fundamentals of our token's economy."
           kpiItems={[
-            { value: "1,000,000", description: "Total Supply", icon: 'LucideIcon' },
-            { value: "0.01", description: "Initial Price", icon: 'LucideIcon' }
+            { value: "1,000,000", description: "Total Supply", icon: Percent },
+            { value: "0.01", description: "Initial Price", icon: Percent }
           ]}
         />
       </div>
